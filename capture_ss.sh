@@ -18,7 +18,7 @@ factorial=1
 for a in `seq 1 200`
 
 do
-	echo "start ss call"
+#	echo "start ss call"
 	ss -it dst "$serverip"  >> $log_file
 	echo $(date +"%Y-%m-%d %H:%M:%S") >> $log_file
 
